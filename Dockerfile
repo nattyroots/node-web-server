@@ -3,4 +3,4 @@ WORKDIR /app
 ADD . /app
 RUN npm install
 EXPOSE 3000
-CMD ["nmp", "start"]
+CMD ["npm", "start"]
